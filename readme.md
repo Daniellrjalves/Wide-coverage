@@ -22,7 +22,7 @@ Durante esse projeto, pratiquei e aprofundei conhecimentos em:
 
 ## 📦 Como visualizar o projeto
 
-Você pode visualizar localmente ou acessar online (caso tenha publicado no GitHub Pages):
+🔗 [Link para o projeto online (GitHub Pages)](https://daniellrjalves.github.io/Easy-Mobile/)
 
 ### Local:
 
