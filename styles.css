@@ -1,0 +1,226 @@
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    margin: 47px 0 163px 42px;
+    
+}
+
+.links-header {
+    color: #17233D;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 32px;
+    letter-spacing: 0.88px;
+    cursor: pointer;
+}
+
+.button-header {
+    background: #6FBF44;
+    width: 124px;
+    height: 51px;
+    border: 1px solid #4CB538;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.button-header:active {
+    opacity: 0.7;
+    background: #4CB538;
+}
+#wide-image {
+    width: 534px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 84.82px;
+    width: 493px;
+}
+
+h1 {
+    color: #161A49;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+}
+
+p {
+    color: #4B505A;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.link-section {
+    color: #6FBF44;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    width: 112px;
+    height: 27px;
+    cursor: pointer;
+}
+
+.link-section:hover {
+    text-decoration: underline;
+    text-decoration-color:#6fca74;
+}
+
+.link-section:active {
+    opacity: 0.7;
+    color: #4CB538;
+}
+
+/* ---------- LAYOUT DESKTOP (padrão) ---------- */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 47px 0 163px 42px;
+    flex-wrap: nowrap; /* não quebra os links */
+    gap: 16px;
+}
+
+.links-header {
+    color: #17233D;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 32px;
+    letter-spacing: 0.88px;
+    cursor: pointer;
+    white-space: nowrap; /* evita quebra */
+}
+
+.button-header {
+    background: #6FBF44;
+    width: 124px;
+    height: 51px;
+    border: 1px solid #4CB538;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.button-header:active {
+    opacity: 0.7;
+    background: #4CB538;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+    gap: 60px;
+}
+
+#wide-image {
+    width: 534px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    width: 493px;
+}
+
+h1 {
+    color: #161A49;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+}
+
+p {
+    color: #4B505A;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.link-section {
+    color: #6FBF44;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+}
+
+.link-section:hover {
+    text-decoration: underline;
+    text-decoration-color: #6fca74;
+}
+
+.link-section:active {
+    opacity: 0.7;
+    color: #4CB538;
+}
+
+/* ---------- CELULARES E TABLETS (até 1024px) ---------- */
+@media (max-width: 1024px) {
+    header {
+        display: none; /* esconde header */
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 20px;
+    }
+
+    section {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    h1 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 24px;
+        margin-bottom: 32px;
+    }
+
+    .link-section {
+        font-size: 18px;
+        margin-top: 16px;
+    }
+
+    #wide-image {
+        width: 90%;
+        max-width: 500px;
+        display: block;
+        margin: 0 auto;
+    }
+}
