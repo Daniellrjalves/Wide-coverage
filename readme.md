@@ -22,7 +22,7 @@ Durante esse projeto, pratiquei e aprofundei conhecimentos em:
 
 ## 📦 Como visualizar o projeto
 
-🔗 [Link para o projeto online (GitHub Pages)](https://daniellrjalves.github.io/Easy-Mobile/)
+🔗 [Link para o projeto online (GitHub Pages)](https://daniellrjalves.github.io/Wide-coverage/)
 
 ### Local:
 
